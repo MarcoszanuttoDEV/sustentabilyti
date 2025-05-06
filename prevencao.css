@@ -1,0 +1,431 @@
+/* Reset e correção de rolagem */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  border: 1.6px solid #b8b8b8;
+  width: 100.1%;
+  height: 83px;
+  overflow: hidden;
+}
+/* logo do site  */
+.icon {
+  width: 86%;
+  height: 86%;
+  min-height: 50px;
+  min-width: 50px;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+/* Green planet, o nome do site ao lado da logo */
+
+ .col-2 button{
+background-color: #FFFFFF;
+color: #2F9D33;
+ }
+ .col-2 button:hover{
+background-color: #2F9D33;
+   }
+/* Botões principais, que estão na nav */
+.btn-collection{
+  
+  height: 60px;
+  width: 90%;
+  
+  
+}
+/* botao games no nav, efeito de ampliar */
+.btn-collection:hover,
+.btn-games:hover {
+ 
+  transform: scale(1.035);
+  transition: transform 0.3s ease;
+  
+}
+
+.botoes .pri{
+  background-color: #1A671D;
+  border: none;
+  cursor: default;
+}
+/* Botões da linha abaixo */
+.botoes button {
+  width: 87%;
+  height: 105%;
+  font-weight: bolder;
+  background-color: #2F9D33;
+  color: #FFFFFF;
+  border-radius: 40px;
+}
+/* efeito nos botoes de mudar cor e ampliar */
+.botoes .btn:hover {
+  background-color: #1A671D;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transform: scale(1.035);
+}
+/* aqui só mudei a cor da letra nos links */
+.botoes a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+  
+  /*first row how to prevent*/
+  .strow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .strow img {
+    width: 25%;
+    margin: 0%;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-172%, -50%);
+    width: 20%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay1 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay1 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  
+  
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay2 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay2 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  
+  .overlay3 {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(61%, -50%);
+    width: 20%;
+    height: 90%;;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay3 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay3 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  /*second row how to prevent*/
+  
+  .ndrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .ndrow img {
+    width: 20%;
+    margin: 0%;
+  }
+  
+  .overlay4 {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-162%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay4 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay4 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  .overlay5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay5 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay5 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  .overlay6 {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(61%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay6 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay6 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  /*third row how to prevent*/
+  .rdrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .rdrow img{
+    width: 20%;
+    margin: 0%;
+  }
+  
+  .overlay7 {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-162%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay7 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay7 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  .overlay8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay8 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay8 p{
+    font-size: 20px;
+    color: #8EBD93;
+    font-weight: 700;
+  }
+  
+  .overlay9 {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(60%, -50%);
+    width: 20%;
+    height: 88%;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .overlay9 h4{
+    font-size: 30px;
+    color: #8EBD93;
+    font-weight: bold;
+  }
+  
+  .overlay9 p{
+    font-size: 20px;
+    color: #a1a1a1;
+    font-weight: 700;
+  }
+  
+  .conclusao{
+    display: flex;
+    justify-content: center;
+    background-color: #6F9471;
+    width: 68%;
+    height: 80vh;
+    transform: translate(0, -50);
+    margin: auto;
+  }
+  
+  .conclusao img{
+    margin-top: 4%;
+    width: 40%;
+    height: 35%;
+    
+  }
+  
+  .conclusao P{
+    color: white;                             /*Palavras conclusão*/            
+  }
+  
+  .htp {
+    color: green;
+    text-align: center;
+  }
+  
+  .eco{
+    background-color: #6FA372;
+    width: 60%;
+    margin: auto;
+  
+  }
+  
+  .eco h1{
+    color: #f7f7f7;
+    text-align: center;
+  }
+  
+  /*eco products 1*/
+  
+  .product1{
+    background-color: #2D5332;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .product1 h2{
+    color: white;
+    margin-top: 5%;
+    font-weight: bold  !important;
+  }
+  
+  .product1 p{
+    color: white;
+    margin-top: 5%;
+    font-weight: bold  !important;
+  }
+  
+  .product1 img{
+    width: 100%;
+  }
+  
+  /*eco products 2*/
+  
+  .product2{
+    background-color: #2D5332;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .product2 h2{
+    color: white;
+    margin-top: 5%;
+    margin-left: 50%;
+    font-weight: bold  !important;
+  }
+  
+  .product2 p{
+    color: white;
+    margin-top: 5%;
+    font-weight: bold  !important;
+    margin-left: 20%;
+  }
+  
+  .product2 img{
+    width: 100%;
+    margin-left: 60%;
+  }
+  
+  /*eco products 3*/
+  
+  .product3{
+    background-color: #2D5332;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .product3 h2{
+    color: white;
+    margin-top: 5%;
+    font-weight: bold  !important;
+  }
+  
+  .product3 p{
+    color: white;
+    margin-top: 5%;
+    font-weight: bold  !important;
+  }
+  
+  .product3 img{
+    width: 100%;
+  }
+  

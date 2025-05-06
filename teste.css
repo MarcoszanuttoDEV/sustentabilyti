@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    border: 1px solid #b8b8b8;
+    width: 100%;
+  }
+  
+  .icon {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .navbar p {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  
+  .navbar button{
+    width: 90%;
+    height: 60%;
+  }
+  
+  .botoes button {
+    width: 80%;
+    height: 100%;
+  }

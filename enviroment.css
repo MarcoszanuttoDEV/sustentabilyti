@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* Navbar */
+.navbar {
+  border: 1.6px solid #b8b8b8;
+  width: 100.1%;
+  height: 83px;
+  overflow: hidden;
+}
+/* logo do site  */
+.icon {
+  width: 86%;
+  height: 86%;
+  min-height: 50px;
+  min-width: 50px;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+/* Green planet, o nome do site ao lado da logo */
+
+ .col-2 button{
+background-color: #FFFFFF;
+color: #2F9D33;
+ }
+ .col-2 button:hover{
+background-color: #2F9D33;
+   }
+/* Botões principais, que estão na nav */
+.btn-collection{
+  
+  height: 60px;
+  width: 90%;
+  
+  
+}
+/* botao games no nav, efeito de ampliar */
+.btn-collection:hover,
+.btn-games:hover {
+ 
+  transform: scale(1.035);
+  transition: transform 0.3s ease;
+  
+}
+
+.botoes .pri{
+  background-color: #1A671D;
+  border: none;
+  cursor: default;
+}
+/* Botões da linha abaixo */
+.botoes button {
+  width: 87%;
+  height: 105%;
+  font-weight: bolder;
+  background-color: #2F9D33;
+  color: #FFFFFF;
+  border-radius: 40px;
+}
+/* efeito nos botoes de mudar cor e ampliar */
+.botoes .btn:hover {
+  background-color: #1A671D;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  transform: scale(1.035);
+}
+/* aqui só mudei a cor da letra nos links */
+.botoes a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+  .bloco{
+    width: 80%;
+    height: 438vh;
+    background-color: rgb(194, 233, 172);
+    margin: auto;
+  }
+
+  .h1{
+    text-align: center;
+    color: gray;
+  }
+
+  .mudoverdi{
+    scale: -1;
+  }
+
+  
+
+  h2{
+    font-size: 20px;
+    padding-top: 4%;
+    color: green !important;
+  }
+
+  p{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: green;
+  }
+
+  .bloco{
+    text-align: center;
+  }
+
+  .planetalindu{
+    width: 20%;
+  }
+
+  h5{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #8CBB34 !important;
+  }
+
+  h6{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #047308 !important;
+  }
+
+  .vermelhu{
+    color: #b40707 !important;
+  }
+
+  h3{
+    color: #b40707 !important;
+    font-weight: bold  !important;
+  }
+
+ .frago{
+    color: #047308 !important;
+  }
+
+  img{
+    width: 35%;
+    border-radius: 5px;
+  }
+
+  .lastimages img{
+    width: 70%;
+    border-radius: 2px;
+  }
+  .redes:hover{
+    color: black;
+    font-weight: bold;
+    cursor: auto;
+     }

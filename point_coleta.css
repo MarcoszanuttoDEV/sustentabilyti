@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    overflow-x: hidden;
+    height: 100%;
+  }
+  
+  /* Navbar */
+  .navbar {
+    border: 1.6px solid #b8b8b8;
+    width: 100.1%;
+    height: 83px;
+    overflow: hidden;
+  }
+  /* logo do site  */
+  .icon {
+    width: 86%;
+    height: 86%;
+    min-height: 50px;
+    min-width: 50px;
+    margin-left: 20%;
+    margin-bottom: 2%;
+  }
+  /* Green planet, o nome do site ao lado da logo */
+  
+   .col-2 button{
+  background-color: #FFFFFF;
+  color: #2F9D33;
+   }
+   .col-2 button:hover{
+  background-color: #2F9D33;
+     }
+  /* Botões principais, que estão na nav */
+  .btn-collection{
+    
+    height: 60px;
+    width: 90%;
+    
+    
+  }
+  /* botao games no nav, efeito de ampliar */
+  
+  .btn-games:hover {
+   
+    transform: scale(1.035);
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .botoes .pri{
+    background-color: #1A671D;
+    border: none;
+    cursor: default;
+  }
+  /* Botões da linha abaixo */
+  .botoes button {
+    width: 87%;
+    height: 105%;
+    font-weight: bolder;
+    background-color: #2F9D33;
+    color: #FFFFFF;
+    border-radius: 40px;
+  }
+  /* efeito nos botoes de mudar cor e ampliar */
+  .botoes .btn:hover {
+    background-color: #1A671D;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: scale(1.035);
+  }
+  /* aqui só mudei a cor da letra nos links */
+  .botoes a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+.levi{
+    text-align: center;
+    color: #179426;
+}
+h1{
+    font-size: 200%;
+}
+.card-img-top {
+    height: 200px;       /* Define uma altura fixa para todas as imagens */
+    object-fit: cover;   /* Faz com que a imagem preencha o espaço ajustando a área de forma inteligente */
+}
+.card-body {
+    min-height: 150px; /* ajuste conforme necessário */
+}
+.card.custom-border{
+    border: 3px solid #2F9D33;
+}
+.cartao {
+    border: 2px solid #2F9D33;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.cartao img {
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.cartao h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cartao p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.imglogo{
+    height: 5%;
+    width: 5%;
+} 
+.joui{
+    display: flex;
+    justify-content: center;
+}
+.maki {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #03663d;
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+
+        
+}
+.lad {
+    text-align: left;
+    font-size:  1.5rem ;
+}
+
+.nami {
+    height: 50%;
+    width: 60%;
+    border-radius: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
